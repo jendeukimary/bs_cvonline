@@ -1,0 +1,80 @@
+
+:root {
+    --aesthetic-blue: #a8d0e6;
+    --aesthetic-blue-dark: #799bb3;
+    --text-dark: #333;
+  }
+  
+  body {
+    background-color: #f2f6fa;
+    font-family: 'Arial', sans-serif;
+    color: var(--text-dark);
+  }
+  
+  .bg-aesthetic {
+    background-color: var(--aesthetic-blue) !important;
+    color: white;
+  }
+  
+  .btn-aesthetic {
+    background-color:rgb(94, 146, 205);
+    color: white;
+    border: none;
+  }
+  
+  .btn-aesthetic:hover {
+    background-color: rgb(146, 146, 231)
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .text-aesthetic {
+    color: var(--aesthetic-blue-dark);
+  }
+
+  .sobre-card {
+    background-color: #94c3de;
+    border-left: 5px solid var(--aesthetic-blue);
+    border-radius: 10px;
+    color: var(--text-dark);
+  }
+  
+
+  .perfil-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 1.5rem;
+  }
+  
+  .perfil-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .badge {
+    margin: 0.3rem;
+    font-size: 1rem;
+  }
+  
+
+  .accordion-button {
+    background-color: var(--aesthetic-blue);
+    color: rgb(94, 146, 205);
+    font-weight: bold;
+  }
+  
+  .badge bg-success {
+    background-color: #a8d0e6;
+  }
+  
